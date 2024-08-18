@@ -1,0 +1,33 @@
+.menNavImage{
+  background-image: url('https://themewagon.github.io/hexashop/assets/images/baner-right-image-02.jpg');
+}
+.womenNavImage{
+  background-image: url('https://themewagon.github.io/hexashop/assets/images/baner-right-image-01.jpg');
+
+}
+.kidNavImage{
+  background-image: url('https://themewagon.github.io/hexashop/assets/images/baner-right-image-03.jpg');
+
+}
+.accessNavImage{
+  background-image: url('https://themewagon.github.io/hexashop/assets/images/baner-right-image-04.jpg');
+
+}
+.headings{
+  font-family: fantasy;
+}
+
+.cnjjd{
+  background-color: #00000091;
+}
+
+.hidden-scrollbar {
+  overflow: hidden;
+  /* Webkit Browsers */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+.hidden-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Edge */
+}

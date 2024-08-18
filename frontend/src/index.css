@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  /* font-family: initial; */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.companyName {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.exploreimage {
+  background-image: url("https://themewagon.github.io/hexashop/assets/images/left-banner-image.jpg");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* * {
+  scroll-behavior: smooth;
+} */
