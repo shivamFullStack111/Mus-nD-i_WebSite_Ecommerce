@@ -2,7 +2,7 @@ import React from "react";
 
 const TrendingCollections = () => {
   return (
-    <div className="w-[100%]  bg-[#000000de] p-10 ">
+    <div className="w-[100%]  bg-[#000000de] p-10  ">
       <p className="text-3xl headings text-white underline  tracking-wider ">
         Trending Collections
       </p>
@@ -12,7 +12,7 @@ const TrendingCollections = () => {
           return (
             <div
               key={i}
-              className="  h-[450px] min-w-[380px]  bg-white rounded-md"
+              className="  h-[450px] min-w-[380px] max-800px:min-w-[300px]  bg-white rounded-md"
             >
               <img
                 src={`https://themewagon.github.io/hexashop/assets/images/men-0${
@@ -21,7 +21,7 @@ const TrendingCollections = () => {
                 className="w-full h-[80%]"
                 alt=""
               />
-              
+
               <div className="p-2">
                 <div className="w-full flex justify-between  text-xl">
                   <p className="">Classic Shirt</p>

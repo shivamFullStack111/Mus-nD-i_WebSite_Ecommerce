@@ -4,7 +4,7 @@
 
 * {
   /* font-family: initial; */
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif
 }
 
 .companyName {
@@ -19,6 +19,56 @@ html {
   scroll-behavior: smooth;
 }
 
+*{
+  scroll-behavior: smooth;
+}
+
 /* * {
   scroll-behavior: smooth;
 } */
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/* Make scrollbar visible on hover */
+.scroll-container:hover::-webkit-scrollbar {
+  display: block;
+}
+
+
+
+.hidden-scrollbar {
+  /* overflow: hidden; */
+  /* Webkit Browsers */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+.hidden-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Edge */
+}

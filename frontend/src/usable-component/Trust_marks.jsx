@@ -61,21 +61,21 @@ const Footer = () => {
         </p>
       </div> */}
 
-      <div className="w-full border-t-[1px] text-[50%] h-[15vh] 1400px:text-[100%] 1400px:h-[20vh]  border-b-2 border-black grid grid-cols-4 ">
+      <div className="w-full border-t-[1px] text-[50%] h-[80px] 800px:h-[110px] 1400px:text-[100%] 1400px:h-[20vh]  border-b-2 border-black grid grid-cols-4 ">
         <div className="flex flex-col justify-center items-center text-[120%] font-bold">
-          <CiDeliveryTruck size={50} />
+          <CiDeliveryTruck className="w-8 h-8 800px:w-16 800px:h-16" />
           <p>FREE DELIVERY</p>
         </div>
         <div className="flex flex-col justify-center items-center text-[120%] font-bold">
-          <GiReturnArrow size={50} />
+          <GiReturnArrow className="w-8 h-8 800px:w-16 800px:h-16" />
           <p>FREE RETURNS</p>
         </div>
         <div className="flex flex-col justify-center items-center text-[120%] font-bold">
-          <RiCustomerService2Line size={50} />
+          <RiCustomerService2Line className="w-8 h-8 800px:w-16 800px:h-16" />
           <p>CUSTOMER SERVICE</p>
         </div>
         <div className="flex flex-col justify-center items-center text-[120%] font-bold">
-          <RiSecurePaymentLine size={50} />
+          <RiSecurePaymentLine className="w-8 h-8 800px:w-16 800px:h-16" />
           <p>SECURE PAYMENTS</p>
         </div>
       </div>

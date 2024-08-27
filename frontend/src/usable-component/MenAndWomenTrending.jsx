@@ -1,7 +1,8 @@
 const MenAndWomenTrending = () => {
   return (
     <div>
-      <div className="w-full min-h-[450px] p-10 pl-28 pr-28  ">
+      {/* p-10 pl-28 pr-28 */}
+      <div className="w-full min-h-[450px] p-10  800px:pl-28 800px:pr-20  ">
         <p
           id="hdbccjnkj"
           className="text-3xl headings text-black underline  tracking-wider "
@@ -41,7 +42,8 @@ const MenAndWomenTrending = () => {
           })}
         </div>
       </div>
-      <div className="w-full min-h-[450px] p-10 pl-28 pr-28  ">
+
+      <div className="w-full min-h-[450px] p-10  800px:pl-28 800px:pr-20 ">
         <p className="text-3xl headings text-black underline  tracking-wider ">
           Women's Trending
         </p>

@@ -11,7 +11,7 @@ import girlimage from "../images/slider-img.png";
 const Home = () => {
   return (
     <div className="min-h-screen w-[100%] bg-gradient-to-br  ">
-      <Home_header />
+      <Home_header isTransparent={true} />
       <div
         style={{ backgroundColor: mainImageColor }}
         className=" flex pt-28 justify-center items-center"
